@@ -1,0 +1,12 @@
+@import "tailwindcss";
+ @plugin "daisyui" {
+   themes: light --default;
+ }
+
+ .layout{
+   display: grid;
+ }
+
+ .box1{
+  border: 1px solid black;
+ }
