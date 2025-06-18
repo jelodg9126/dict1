@@ -14,10 +14,10 @@ function Form(){
     return(
         <>
         <Sidebar/>
-  
+        
         <div id="form" className="w-[80%] h-screen flex items-center justify-center">
           
-        <form action="" className="flex flex-col border border-gray-300 p-8 gap-1 items-center rounded-xl">
+        <form method="POST "action="insertDG.php" className="flex flex-col border border-gray-300 p-8 gap-1 items-center rounded-xl">
         <h1 className="text-2xl p-2 font-bold">Sender Form</h1>
 
     <div className="flex gap-3">
