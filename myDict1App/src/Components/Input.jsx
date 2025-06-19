@@ -1,13 +1,13 @@
 
 
-function Input({type,label}){
+function Input({type,label, name, onChange}){
 
     return(
         <>
           
            <fieldset className="fieldset">
   <label className="fieldset-legend">{label}</label>
-<input type={type} placeholder="Type here" className="input" />
+<input type={type} placeholder="Type here" className="input" name={name}/>
 </fieldset>
 
         </>

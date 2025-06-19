@@ -1,7 +1,7 @@
 
 
 
-function Dropdown({label, options=[], disOption}){
+function Dropdown({label, options=[], disOption, name}){
 
 
 
@@ -11,7 +11,7 @@ function Dropdown({label, options=[], disOption}){
 
               <fieldset className="fieldset">
   <label className="fieldset-legend">{label}</label>
-  <select defaultValue="Pick a browser" className="select">
+  <select defaultValue="Pick a browser" className="select" name={name}>
     <option disabled={true}>{disOption}</option>
        {options.map((option, index)=>(
           <option key={index}>{option}</option>
